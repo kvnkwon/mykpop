@@ -2,7 +2,7 @@ html, html a {
   -webkit-font-smoothing: antialiased;
 }
 
-.intro {
+#intro {
   position: absolute;
   top: 0;
   left: 0;
@@ -69,35 +69,29 @@ html, html a {
   color: red;
 }
 
-.social {
-  height: 8em;
+#about {
   width: 100%;
   position: absolute;
   top: 100%;
-  background-color: #242323;
 }
 
-.about {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-  margin-top: 8em;
-}
-
-.orange-bg, .blue-bg, .red-bg {
+.red-bg, .blue-bg, .pink-bg {
   height: 20em;
   width: 100%;
 }
 
-.orange-bg {
-  background-color: #FF9900;
-}
-
 .blue-bg {
-  background-color: #0066FF;
+  background-color: #214B89;
 }
 
 .red-bg {
-  background-color: #FF0000;
+  background-color: #A03131;
+}
+
+.pink-bg {
+  background-color: #DB2478;
+}
+
+.slick-dots li button:before {
+  font-size: 25px;
 }

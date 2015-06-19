@@ -1,8 +1,9 @@
 $(document).ready(function() {
   $('.covervid-video').coverVid(1920, 1080);
-  $('.your-class').slick({
+  $('.about-carousel').slick({
     infinite: true,
     dots: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
     fade: true,
