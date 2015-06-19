@@ -2,12 +2,13 @@ html, html a {
   -webkit-font-smoothing: antialiased;
 }
 
-.covervid-wrapper {
+#intro {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .vid-overlay {
@@ -66,4 +67,31 @@ html, html a {
 
 .red {
   color: red;
+}
+
+#about {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+}
+
+.red-bg, .blue-bg, .pink-bg {
+  height: 20em;
+  width: 100%;
+}
+
+.blue-bg {
+  background-color: #214B89;
+}
+
+.red-bg {
+  background-color: #A03131;
+}
+
+.pink-bg {
+  background-color: #DB2478;
+}
+
+.slick-dots li button:before {
+  font-size: 25px;
 }
