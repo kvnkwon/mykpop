@@ -2,12 +2,13 @@ html, html a {
   -webkit-font-smoothing: antialiased;
 }
 
-.covervid-wrapper {
+.intro {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .vid-overlay {
@@ -66,4 +67,37 @@ html, html a {
 
 .red {
   color: red;
+}
+
+.social {
+  height: 8em;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: #242323;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  margin-top: 8em;
+}
+
+.orange-bg, .blue-bg, .red-bg {
+  height: 20em;
+  width: 100%;
+}
+
+.orange-bg {
+  background-color: #FF9900;
+}
+
+.blue-bg {
+  background-color: #0066FF;
+}
+
+.red-bg {
+  background-color: #FF0000;
 }
