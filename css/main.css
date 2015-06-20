@@ -76,8 +76,11 @@ html, html a {
 }
 
 .red-bg, .blue-bg, .pink-bg {
-  height: 20em;
   width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 5em 2em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .blue-bg {
@@ -94,4 +97,8 @@ html, html a {
 
 .slick-dots li button:before {
   font-size: 25px;
+}
+
+.lg-icon {
+  font-size: 8em;
 }
