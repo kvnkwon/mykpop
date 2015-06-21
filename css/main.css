@@ -48,25 +48,26 @@ html, html a {
 }
 
 .navbar {
-  font-family: 'Source Sans Pro', sans-serif;
   z-index: 1;
   border-radius: 0;
   background-color: #fff;
   border-color: #fff;
-  font-weight: 700
 }
 
 .navbar-default .navbar-brand {
-  font-size: 2em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.7em;
   color: #000;
 }
 
 .navbar-default .navbar-nav > li > a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
   color: #000;
 }
 
 .red {
-  color: red;
+  color: #FF2222;
 }
 
 #about {
@@ -77,10 +78,10 @@ html, html a {
 
 .red-bg, .blue-bg, .pink-bg {
   width: 100%;
-  text-align: center;
   color: #fff;
   padding: 5em 2em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', sans-serif;
+  margin-bottom: 1.5em;
 }
 
 .blue-bg {
@@ -105,4 +106,30 @@ html, html a {
 
 .info-txt {
   padding: 0 2em;
+}
+
+#footer {
+  background-color: #1D1D1D;
+  padding: 5em 5em;
+  color: #fff;
+}
+
+.sticky-footer {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.footer-head {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FF2222;
+}
+
+#footer p {
+  line-height: 1em;
+}
+
+.slick-dots {
+  margin-bottom: 2.5em;
 }
