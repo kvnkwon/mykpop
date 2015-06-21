@@ -21,5 +21,9 @@ $(document).ready(function() {
     // The content of the frame. You can use multiple selectors. e.g. "#header, #body"
     content: '#body'
   });
+  $('a[href*=#]').on('click', function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+  });
 
 });
